@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+
+    <!--кодировка в который написан html сайт(для коректного отображения)-->
+    <meta charset="UTF-8">
+    <!--информация будет отображаться по ширине окна браузера-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourDetails</title>
+
+    <style>
+        .leftstr, .rightstr {
+         float: left; /* Обтекание справа */ 
+         width: 20%; /* Ширина текстового блока */ 
+        }
+        .rightstr {
+         text-align: right; /* Выравнивание по правому краю */ 
+        }
+       </style>
+</head>
+
+    <!-- ШАПКА!!! -->
+<body  bgcolor="#DCDCDC">
+    <div style="display:flex"
+<br>
+<p align=”left"> TourDetails </p>
+<br>
+<p class="rightstr"> Каталог </p>
+<p class="rightstr"> TourAuto </p>
+<p class="rightstr"> Контакты </p>
+<p class="rightstr"> О компании</p>
+</div>
+    <hr>
+ 
+</body>
