@@ -1,12 +1,18 @@
 table{
 border:1px solid black;
 border-collapse:collapse;
+text-align: center;
+margin-top: 20px;
+}
 
+h1 {
+text-indent: 25px;
 }
 
 td,th{
+text-align: center;
 border:1px solid black;
-padding: 5px;
+padding: 10px;
 }
 
 body{
@@ -16,3 +22,12 @@ background-image: url(pinkbg.bmp);
    }
 
 a {text-decoration: none; }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    font-family: "Roboto", sans-serif;
+  }
