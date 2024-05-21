@@ -29,7 +29,7 @@ background-image: url(pinkbg.bmp);
 
 a {text-decoration: none; }
 
-.leftstr, .rightstr {
+.container {
 		 float: left; /* Обтекание справа */ 
 		 width: 30%; /* Ширина текстового блока */ 
 		}
